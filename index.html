@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav id="navbar">
+        <img src="logo1.png" alt="spotify">
+        <ul class="list">
+            <li>Home</li>
+            <li>Menu</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h1>Best Of NCS-No Copyright Sounds</h1>
+            <div>
+                <div class="songitem">
+                    <img src="nightchages.png" alt="1" class="song">
+                    <span class="songname">Night Changes - One Direction</span> 
+                    <span class="timestamp">7:86<span><i class="fa-regular fa-circle-play play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="love_story.png" alt="2" class="song"> <!-- Added missing src -->
+                    <span class="songname">Love Story - Taylor Swift</span> 
+                    <span class="timestamp">7:86<span><i class="fa-regular fa-circle-play play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="whosays.png" alt="3" class="song">
+                    <span class="songname">Who Says - Selena Gomez</span> 
+                    <span class="timestamp">7:86<span><i class="fa-regular fa-circle-play play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="wakawaka.png" alt="4" class="song">
+                    <span class="songname">Waka Waka - Shakira</span> 
+                    <span class="timestamp">7:86<span><i class="fa-regular fa-circle-play play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="wavinnflag.png" alt="5" class="song">
+                    <span class="songname">K'Naan - Wavin' Flag</span> 
+                    <span class="timestamp">7:86<span><i class="fa-regular fa-circle-play play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="justin.png" alt="6" class="song">
+                    <span class="songname">Love Yourself - Justin Bieber</span> 
+                    <span class="timestamp">7:86<span><i class="fa-regular fa-circle-play play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="yaadpiya.png" alt="7" class="song"> <!-- Corrected image src -->
+                    <span class="songname">Yaad Piya Ki - Neha Kakkar</span> 
+                    <span class="timestamp">7:86<span><i class="fa-regular fa-circle-play play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    <footer class="bottomcontainer">
+        <input type="range" id="rangebar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-backward" id="previous"></i>
+            <i class="fa-regular fa-circle-play" id="masterplay"></i>
+            <i class="fa-solid fa-forward" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="music_gif.jpg" alt="music gif" id="gif"><span id="songname">Night Changes - One Direction</span>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
